@@ -1,6 +1,8 @@
+import { Shape } from './shapes/shape.js'
+
 function newRenderer(shape: Shape) {
     return {
-        draw() {
+        draw () {
             const area: number = shape.computeArea()
             console.log("Shape drawn\n" + "Its area is " + area)
         }
