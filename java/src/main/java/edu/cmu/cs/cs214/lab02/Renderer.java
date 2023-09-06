@@ -12,8 +12,6 @@ public class Renderer {
     void draw() {
         double area = shape.getArea();
 
-        // assume implementation
-
         System.out.println("Shape printed\n" + "Its area is " + area);
     }
 }

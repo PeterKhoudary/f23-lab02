@@ -1,6 +1,6 @@
 import { Shape } from './shapes/shape.js'
 
-function newRenderer(shape: Shape) {
+function newRenderer (shape: Shape) {
     return {
         draw () {
             const area: number = shape.computeArea()
